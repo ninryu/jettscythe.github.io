@@ -1,5 +1,5 @@
 html {
-  background: url("1519642837396.jpg") no-repeat center center fixed;
+  background: url("28821888_166763060798554_730590838_o.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -8,12 +8,13 @@ html {
 body {
   font-family: "Arial", serif;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .vert-menu {
   position: relative;
   top: 100px;
-  padding: 0px 60px 0px 60px;
+  padding: 0px 70px 0px 70px;
   text-align: center;
 }
 .nav a {
@@ -24,16 +25,31 @@ body {
     background-color: rgba(0,0,0,0.8);
     color: DodgerBlue;
     display: block;
-    width: 150px;
-    padding: 7px;
+    width: 125%;
+    padding: 5%;
     text-decoration: none;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
 }
 .nav a:hover {
   background-color: rgba(16, 30, 27, 0.8);
 }
 ul {
   list-style-type: none;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 520px) {
+  html {
+    background: url("1519846145345.jpg") no-repeat center center fixed;
+  }
+  body {
+    width: 80%;
+  }
+  .vert-menu {
+    top: 10px;
+    padding: 7px;
+  }
 }
