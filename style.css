@@ -1,0 +1,39 @@
+html {
+  background: url("1519642837396.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  font-family: "Arial", serif;
+  display: flex;
+  justify-content: center;
+}
+.vert-menu {
+  position: relative;
+  top: 100px;
+  padding: 0px 60px 0px 60px;
+  text-align: center;
+}
+.nav a {
+    border-style: solid;
+    border-width: thin;
+    border-collapse: separate;
+    border-color: DodgerBlue;
+    background-color: rgba(0,0,0,0.8);
+    color: DodgerBlue;
+    display: block;
+    width: 150px;
+    padding: 7px;
+    text-decoration: none;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+}
+.nav a:hover {
+  background-color: rgba(16, 30, 27, 0.8);
+}
+ul {
+  list-style-type: none;
+}
